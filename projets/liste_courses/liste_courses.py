@@ -15,7 +15,7 @@ MENU = """Choisissez parmi les 5 options suivantes :
 5 : Quitter
 👉 Votre choix : """
 
-CHOIX_MENU = [str(i) for i in range(1, 6)] # contient les choix que l'utilisateur peut faire, on vérifie que son choix est bien dans la liste
+SHOIX_MENU = [str(i) for i in range(1, 6)] # contient les choix que l'utilisateur peut faire, on vérifie que son choix est bien dans la liste
 
 if os.path.exists(LISTE_PATH): # si le chemin vers la liste .json existe
     with open(LISTE_PATH, "r") as f: # on ouvre le fichier et on le stocke dans une variable f
