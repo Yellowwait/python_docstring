@@ -1,6 +1,6 @@
 """
 En important l'objet (classe) Path depuis le module pathlib, on a accès à un certain nombre de méthodes nous permettant d'effectuer des actions facilement, notamment des
-chemins couramment utilisés
+chemins couramment utilisés comme le dossier utilisateur ou le dossier courant, parent, etc
 """
 
 from pathlib import Path
