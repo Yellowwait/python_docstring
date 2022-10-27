@@ -21,8 +21,3 @@ main_file2 = user_dir.joinpath("Documents", "main.py")
 
 print(user_docs2)
 print(main_file2)
-
-print((user_dir / "Documents" / "main.py").suffix) # affiche l'extension du fichier .py
-print(main_file.suffix) # idem
-print(main_file2.suffix) # idem
-print(user_dir / "Documents" / "main.py".suffix) # ici on a une erreur car suffix ne peut pas être attribué à une str
