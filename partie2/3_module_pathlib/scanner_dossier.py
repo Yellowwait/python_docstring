@@ -13,3 +13,13 @@ for f in Path.home().iterdir(): # f renvoie à un objet de type Path
 
 dossiers = [f.name for f in Path.home().iterdir() if f.is_dir()]
 fichiers = [f.name for f in Path.home().iterdir() if f.is_file()]
+
+"""Pour afficher des éléments selon un certain type on peut également utiliser glob et rglob"""
+
+p = Path.home() / "Téléchargements"
+
+for f in p.glob("*.jpg"):
+    print(f.name) # glob va renvoyer tous les fichiers au format .jpg dans le chemin spécifié
+
+for f in p.rglob("*.jpg"):
+    print(f.name) # rglob va renvoyer tous les fichiers au format .jpg dans le chemin spécifié et ses sous-dossiers (r pour "recursive")
