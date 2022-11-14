@@ -29,4 +29,4 @@ print(liste_personnes[1]["ville"])
 
 # Une autre manière de récupérer une valeur est la méthode get(). Cette méthode ne renverra pas d'erreur si la clé n'existe pas dans le dictionnaire.
 
-print(dictionnaire1.get("age", "La clé spécifiée n'existe pas")) # on peut spécifier un message si la clé n'a pas été trouvée --> PREFERER CETTE METHODE !
+print(dictionnaire1.get("age", "La clé spécifiée n'existe pas")) # on peut spécifier un message si la clé n'a pas été trouvée (None par défaut) --> PREFERER CETTE METHODE !

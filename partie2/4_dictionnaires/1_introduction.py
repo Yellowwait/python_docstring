@@ -10,19 +10,38 @@ dictionnaire = {"prenom": "Thomas",
 
 # On peut également stocker plusieurs dictionnaires dans un même dictionnaire
 liste_personnes = {
-                    {
+                    "Un": {
                         "prenom": "Paul",
                         "profession": "Ingénieur",
                         "ville": "Paris"
                     },
-                    {
+                    "Deux": {
                         "prenom": "Julie",
                         "profession": "Architecte",
                         "ville": "Marseille"
                     },
-                    {
+                    "Trois": {
                         "prenom": "Pierre",
                         "profession": "Plombier",
                         "ville": "Nantes"
                     }
                   }
+print(liste_personnes["Trois"]["ville"])
+
+# Les clés doivent obligatoirement être des objets immuables mais peuvent être de n'importe quel type
+d = {
+        1: 'one', # int
+        'deux': 2 , # str
+        (3, 4, 5): 'pas_de_soucis', # tuple
+        9.9: 'nine_point_nine' # float
+}
+
+# Si l'on crée deux clés identiques, la seconde écrasera la première
+d2 = {
+        'spam': 'eggs', 
+        'knights': 'lumberjack', # 1ère clé 'knights'
+        'bacon': 'sausage',
+        'knights': 'ham' # 2ème clé 'knights' qui va écraser la première
+}
+
+print(d)
