@@ -21,3 +21,9 @@ main_file2 = user_dir.joinpath("Documents", "main.py")
 
 print(user_docs2)
 print(main_file2)
+
+"""Enfin, on peut concaténer toute une liste de dossiers avec joinpath() et l'unpacking avec *"""
+
+home = Path.home()
+dossiers = ["Projets", "Django", "blog"]
+dossier_blog = home.joinpath(*dossiers) # renvoie /home/teste/Projets/Django/blog
