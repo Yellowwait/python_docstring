@@ -4,5 +4,5 @@ d = {
     'bacon': 'sausage'
 }
 
-print('bacon' in d)
-print('ham' in d.values())
+print('bacon' in d) # par défaut ne vérifie que les clés
+print('ham' in d.values()) # permet de vérifier une valeur
