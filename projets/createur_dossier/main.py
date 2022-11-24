@@ -1,6 +1,6 @@
 from pathlib import Path
 
-chemin = Path("/home/teste/Documents/Docstring/python_docstring/projets/createur_dossier/dossier_test")
+chemin = Path("/home/jonathan/Documents/Docstring/python_docstring/projets/createur_dossier/dossier_test")
 
 dico = {"Films": ["Le Seigneur des Anneaux",
                   "Harry Potter",
