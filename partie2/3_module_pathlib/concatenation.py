@@ -9,7 +9,7 @@ user_docs = user_dir / "Documents" # on peut concaténer facilement en ajoutant 
 main_file = user_dir / "Documents" / "main.py" # on peut ajouter plusieurs dossiers et/ou fichiers
 
 print(user_docs)
-print(type(user_docs)) # <class 'pathlib.PosixPath'> --> l'objet reste de type PosixPath
+print(type(user_docs)) # <class 'pathlib.PosixPath'> --> l'objet reste de type PosixPat
 print(main_file)
 
 """
