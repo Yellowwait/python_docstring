@@ -3,10 +3,12 @@ lesquels Python va chercher des modules. On peut afficher cette variable grâce 
 
 import sys
 import mon_module # on a créé ce module à cet emplacement "/usr/local/lib/python3.10/dist-packages" avec le terminal
+import module_test
 from pprint import pprint
 
 pprint(sys.path)
 print(mon_module.a)
+print(module_test.b)
 
 """On retrouve à la première ligne le dossier courant du script exécuté, ce qui permet d'importer des modules se trouvant au même niveau.
 Ce sont tous les chemins de dossiers dans lesquels on peut aller chercher des modules. On peut utiliser l'un de ces chemins dans le terminal et créer un

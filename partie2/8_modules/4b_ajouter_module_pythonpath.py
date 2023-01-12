@@ -5,7 +5,6 @@ dans lequel on voudra utiliser le module en question
 
 import sys
 from pprint import pprint
-sys.path.append("/home/jonathan/Documents/mes_modules")
-import module_test
+# sys.path.append("/home/jonathan/Documents/mes_modules")
 
 pprint(sys.path)
