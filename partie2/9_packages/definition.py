@@ -1,1 +1,0 @@
-"""Un package est un dossier contenant un ou plusieurs modules."""
