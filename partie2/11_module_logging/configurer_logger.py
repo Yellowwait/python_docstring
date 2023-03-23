@@ -4,7 +4,7 @@
 import logging
 
 # Pour afficher les logs à partir d'un autre niveau (défaut = WARNING), il faut modifier le paramètre level
-# Le paramètre format permet de formater le message affiché (par défaut root)
+# Le paramètre format permet de formater le message affiché (par défaut root) en modifiant les token
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
